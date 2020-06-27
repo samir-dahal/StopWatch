@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch JS</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stopwatch.css">
+    <script src="stopwatch.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab">
+            <i class="fa fa-clock-o"></i>
+            <span>StopWatch</span>
+        </div>
+        <h1 class="stopwatch">00:00:00:00</h1>
+        <div class="laps">
+            <h2>Laps <button class="clear-lap-btn" onclick="ClearLap()">Clear</button> </h2>
+        </div>
+        <div class="controls">
+            <button class="start-pause-btn" onclick="Start()">Start</button>
+            <button class="reset-btn" onclick="Reset()">Reset</button>
+            <button class="lap-btn" onclick="Lap()">Lap</button>
+        </div>
+    </div>
+</body>
+
+</html>
